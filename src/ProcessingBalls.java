@@ -3,7 +3,7 @@ import processing.core.PApplet;
 public class ProcessingBalls extends PApplet {
     public static final int WIDTH = 648;
     public static final int HEIGHT = 480;
-    public static final int RADIUS = 10;
+    public static final int DIAMETER = 10;
     int ballOne=1, ballTwo=1, ballThree=1, ballFour=1;
 
     public static void main(String[] args) {
@@ -23,13 +23,13 @@ public class ProcessingBalls extends PApplet {
     @Override
     public void draw() {
 
-        ellipse(ballOne,HEIGHT/5, RADIUS, RADIUS);
+        ellipse(ballOne,HEIGHT/5, DIAMETER, DIAMETER);
         ballOne+=1;
-        ellipse(ballTwo,HEIGHT*2/5, RADIUS, RADIUS);
+        ellipse(ballTwo,HEIGHT*2/5, DIAMETER, DIAMETER);
         ballTwo+=2;
-        ellipse(ballThree,HEIGHT*3/5, RADIUS, RADIUS);
+        ellipse(ballThree,HEIGHT*3/5, DIAMETER, DIAMETER);
         ballThree+=3;
-        ellipse(ballFour,HEIGHT*4/5, RADIUS, RADIUS);
+        ellipse(ballFour,HEIGHT*4/5, DIAMETER, DIAMETER);
         ballFour+=4;
 
     }
