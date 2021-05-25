@@ -27,9 +27,13 @@ public class ProcessingBalls extends PApplet {
     public void draw() {
 
         ellipse(ballOne,HEIGHT*1/5, RADIUS, RADIUS);
+        ballOne+=1;
         ellipse(ballTwo,HEIGHT*2/5, RADIUS, RADIUS);
+        ballTwo+=2;
         ellipse(ballThree,HEIGHT*3/5, RADIUS, RADIUS);
+        ballThree+=3;
         ellipse(ballFour,HEIGHT*4/5, RADIUS, RADIUS);
+        ballFour+=4;
 
     }
 }
