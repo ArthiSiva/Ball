@@ -1,7 +1,7 @@
 import processing.core.PApplet;
 
 public class ProcessingBalls extends PApplet {
-    public static final int WIDTH = 640;
+    public static final int WIDTH = 648;
     public static final int HEIGHT = 480;
     public static final int RADIUS = 10;
     int ballOne=1, ballTwo=1, ballThree=1, ballFour=1;
