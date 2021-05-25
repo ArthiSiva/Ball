@@ -22,5 +22,7 @@ public class ProcessingBalls extends PApplet {
     @Override
     public void draw() {
         ellipse(0,HEIGHT*1/5, RADIUS, RADIUS);
+        ellipse(0,HEIGHT*2/5, RADIUS, RADIUS);
+
     }
 }
